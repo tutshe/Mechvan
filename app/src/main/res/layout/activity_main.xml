@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sbjctlistview"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/myspinner"
+        android:layout_margin="15dp"
+        android:background="#00BCD4"
+        android:textDirection="rtl"
+        app:layout_constraintBottom_toTopOf="@id/recom"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ניקוי"
+            android:layout_margin="15dp"
+            android:backgroundTint="#000000"
+            android:drawableRight="@drawable/baseline_clear_24"
+            android:textStyle="bold"
+            android:id="@+id/clear"
+            app:layout_constraintBottom_toTopOf="@id/recom"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFEB3B"
+            android:id="@+id/recom"
+            android:text="המלצה"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

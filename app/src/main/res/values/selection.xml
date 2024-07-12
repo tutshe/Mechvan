@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_values">
+        <item>+ הוספת נושא</item>
+        <item>6-שימוש ב-AlarmManager ו-Notification</item>
+        <item>6-שימוש ב-Job Scheduler</item>
+        <item>6-שימוש ב-API לצריכת מידע</item>
+        <item>6-כתיבת מחלקת Service</item>
+        <item>6-שימוש ב-AcvtivityForResult החדש</item>
+        <item>6-שימוש ב-ContentProvider</item>
+        <item>6-יצירת אנימציה</item>
+        <item>7-שמירה ושליפה DB מקומי (SQLite)</item>
+        <item>7-שמירה ושליפה DB מרוחק (Firestore ,Firebase ,MySQL)</item>
+        <item>9-שימוש ב-NFC</item>
+        <item>9-שימוש ב-Bluetooth</item>
+        <item>9-שימוש ב-Threads</item>
+        <item>9-מאזיני תנועה</item>
+        <item>9-הצגת מיקום על Google Maps</item>
+        <item>9-שימוש ב-Fragment</item>
+        <item>9-אפליקציה רבת משתמשים</item>
+        <item>9-ירושה ממחלקת View</item>
+        <item>9-שימוש ב-SurfaceView</item>
+        <item>9-חיישנים</item>
+        <item>9-פיתוח API בצד שרת</item>
+        <item>9-בינה מלאכותית</item>
+        <item>9-רשתות מחשבים</item>
+        <item>9-למידת מכונה</item>
+        <item>10-שימוש ב-Broadcast Receiver</item>
+        <item>10-שימוש ב-SharedPreferences</item>
+        <item>10-שימוש ב-Camera ו-Gallery</item>
+        <item>10-שימוש ב-ASyncTask</item>
+        <item>10-שימוש ב-Handler</item>
+        <item>10-שימוש ב-Microphone</item>
+        <item>10-שימוש ב-GPS</item>
+        <item>10-שימוש ב-Count Down Timer</item>
+        <item>10-מימוש של SpeechToText</item>
+        <item>10-מימוש של TextToSpeech</item>
+    </string-array>
+</resources>
